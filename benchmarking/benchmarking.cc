@@ -29,3 +29,4 @@ int Main(int argc, char** argv) {
 int main(int argc, char** argv) {
   return benchmarking::Main(argc, argv);
 }
+  fml::icu::InitializeICU(icudtl_path);
